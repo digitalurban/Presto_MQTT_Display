@@ -1,7 +1,8 @@
 
 # MQTT Message Display with Word Wrapping on Presto Display
 
-This repository contains Python code designed to display messages received via MQTT on a [Presto Display](https://pimoroni.com). It includes a feature to word-wrap messages, ensuring text stays within the screen boundaries.
+
+This repository contains Python code designed to display messages received via MQTT on a [Beta Presto Display](https://shop.pimoroni.com/products/presto?variant=54894104019323). It includes a feature to word-wrap messages, ensuring text stays within the screen boundaries.
 
 ## Features
 
@@ -29,20 +30,14 @@ This repository contains Python code designed to display messages received via M
 
 2. Upload the files to your device using a tool like [Thonny](https://thonny.org/), [ampy](https://github.com/scientifichackers/ampy), or [rshell](https://github.com/dhylands/rshell).
 
-3. Install the `umqtt.simple` library if it’s not already available on your MicroPython firmware. You can use `upip` for installation:
-   ```python
-   import upip
-   upip.install('micropython-umqtt.simple')
-   ```
-
-4. Customize the MQTT broker, port, and topic in the code:
+3. Customize the MQTT broker, port, and topic in the code (our example code points to our own broker with messages displayed every 3 minutes).
    ```python
    BROKER = "your-mqtt-broker-address"
    PORT = 1883  # Port number
    TOPIC = b"your/topic/#"  # MQTT topic
    ```
 
-5. Run the code on your device.
+4. Run the code on your device.
 
 ## Usage
 

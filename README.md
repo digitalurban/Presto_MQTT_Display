@@ -6,7 +6,7 @@ This repository contains Python code designed to display messages received via M
 
 ## Features
 
-- **MQTT Integration**: Subscribes to an MQTT topic and displays received messages on the screen.
+- **MQTT Integration**: Subscribes to an MQTT topic and displays received messages on the screen. Sample MQTT details included for texting, messgaes include the Time (UK), Weather from a personal weather station, a news feed and earthquake details. Edit for your own feed.
 - **Word Wrapping**: Automatically wraps text to fit within the display width.
 - **Customizable Display**: Messages are shown in white text on a black background.
 - **Message Timing**: Ensures each message is displayed for at least 20 seconds.

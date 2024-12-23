@@ -4,6 +4,8 @@
 
 This repository contains Python code designed to display messages received via MQTT on a [Beta Presto Display](https://shop.pimoroni.com/products/presto?variant=54894104019323). It includes a feature to word-wrap messages, ensuring text stays within the screen boundaries.
 
+![Presto MQTT Display](https://github.com/digitalurban/Presto_MQTT_Display/blob/main/prestomqtt.jpeg?raw=true)
+
 ## Features
 
 - **MQTT Integration**: Subscribes to an MQTT topic and displays received messages on the screen. Sample MQTT details included for texting, messgaes include the Time (UK), Weather from a personal weather station, a news feed and earthquake details. Edit for your own feed.
